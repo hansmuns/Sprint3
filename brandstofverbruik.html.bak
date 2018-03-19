@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>brandstofverbruik</title>
+  </head>
+  <body>
+    <div style="text-align: center;">
+      <h1>Brandstofverbruik</h1>
+      <br>
+      <button onclick="brandstofverbruik()">Bereken je verbruik</button> <br>
+      <br>
+      <img src="file:///C:/Users/Hans%20Muns/Documents/Fiche%203%20alg/uitlaatgassen.jpg"
+
+        alt="de uitlaat van een auto" title="uitlaat auto" style="width: 453px; height: 302px;"></div>
+    <script language="javascript">
+    	function brandstofverbruik(){
+      	var Prijsbenzine, Afstand, Verbruik, Kostprijs
+        Prijsbenzine=prompt("Geef de prijs van 1 liter benzine?","")
+        Afstand=prompt("Geef de afstand die je rijdt?", "")
+        Verbruik=6
+        Kostprijs=(Verbruik*Prijsbenzine*Afstand)/100
+        alert("Je reis kost "+Kostprijs+" euro.")
+      }
+    </script>
+  </body>
+</html>

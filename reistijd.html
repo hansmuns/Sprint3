@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Bereken mijn reistijd</title>
+  </head>
+  <body>
+    <div style="text-align: center;">
+      <h1>Reistijd</h1>
+      <br>
+      <button onclick="brandstofverbruik()">Bereken mijn reistijd</button>
+      <br>
+      <br>
+      <img src="file:///C:/Users/Hans%20Muns/Documents/Fiche%203%20alg/uitlaatgassen.jpg"
+
+        alt="de uitlaat van een auto" title="uitlaat auto" style="width: 453px; height: 302px;"></div>
+    <script language="javascript">
+    	function brandstofverbruik(){
+      	var gemiddeldesnelheid, Afstand, tijd
+        gemiddeldesnelheid=prompt("Geef de gemiddelde snelheid per uur?","")
+        Afstand=prompt("Geef de afstand in km?", "")
+        tijd= Afstand/(gemiddeldesnelheid/60)
+        alert("Je hebt "+tijd+" minuten nodig.")
+      }
+    </script>
+  </body>
+</html>
